@@ -4,8 +4,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JAzfspQtv_FKNTltT0bj-26" edge="1" parent="1" source="KsF05v25O76oyp_py7rt-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startSize=16;endArrow=diamond;endFill=0;endSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="KsF05v25O76oyp_py7rt-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KsF05v25O76oyp_py7rt-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="User" vertex="1">
-          <mxGeometry height="112" width="160" x="910" y="330" as="geometry" />
+          <mxGeometry height="208" width="160" x="1510" y="828" as="geometry" />
         </mxCell>
         <mxCell id="KsF05v25O76oyp_py7rt-2" parent="KsF05v25O76oyp_py7rt-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="String id" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
@@ -19,8 +22,8 @@
         <mxCell id="KsF05v25O76oyp_py7rt-4" parent="KsF05v25O76oyp_py7rt-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
           <mxGeometry height="26" width="160" y="86" as="geometry" />
         </mxCell>
-        <mxCell id="KsF05v25O76oyp_py7rt-6" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;div&gt;Role&lt;/div&gt;" vertex="1">
-          <mxGeometry height="96" width="160" x="910" y="210" as="geometry" />
+        <mxCell id="KsF05v25O76oyp_py7rt-6" parent="KsF05v25O76oyp_py7rt-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;div&gt;Role&lt;/div&gt;" vertex="1">
+          <mxGeometry height="96" width="160" y="112" as="geometry" />
         </mxCell>
         <mxCell id="KsF05v25O76oyp_py7rt-7" parent="KsF05v25O76oyp_py7rt-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="CUSTOMER" vertex="1">
           <mxGeometry height="26" width="160" y="44" as="geometry" />
@@ -79,13 +82,13 @@
         <mxCell id="KsF05v25O76oyp_py7rt-152" edge="1" parent="1" source="KsF05v25O76oyp_py7rt-32" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startSize=16;endArrow=diamond;endFill=1;endSize=16;" target="KsF05v25O76oyp_py7rt-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1440" y="1050" />
+              <mxPoint x="1440" y="1150" />
             </Array>
             <mxPoint x="1410" y="820" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KsF05v25O76oyp_py7rt-26" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Screen" vertex="1">
-          <mxGeometry height="164" width="160" x="1710" y="1020" as="geometry" />
+          <mxGeometry height="164" width="160" x="1710" y="1080" as="geometry" />
         </mxCell>
         <mxCell id="KsF05v25O76oyp_py7rt-27" parent="KsF05v25O76oyp_py7rt-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="String id" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
@@ -143,7 +146,7 @@
         <mxCell id="e9Bl36c_DC8gW1oAFFAN-22" edge="1" parent="1" source="KsF05v25O76oyp_py7rt-39" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startSize=16;endArrow=diamond;endFill=0;endSize=16;" target="KsF05v25O76oyp_py7rt-130">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1670" y="960" />
+              <mxPoint x="1750" y="960" />
             </Array>
           </mxGeometry>
         </mxCell>
